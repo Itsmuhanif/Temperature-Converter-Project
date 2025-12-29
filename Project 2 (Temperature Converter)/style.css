@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: rgb(157, 219, 12);
+    height: 290px;
+    width: 650px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.title{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.celsius, .fehrenheit, .kalvin{
+    width: 300px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+.form{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+.celsiusDiv, .fehrenheitDiv, .kalvinDiv {
+    display: flex;
+    justify-content: space-between;
+
+}
+@media (max-width: 360px) {
+    .main{
+        width: 350px;
+        height: 250px;
+    }
+    .title {
+        width: 350px;
+        font-size: 13px;
+    }
+
+.form{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+.celsius, .fehrenheit, .kalvin{
+    width: 200px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+}
